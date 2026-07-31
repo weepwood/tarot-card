@@ -6,10 +6,10 @@
 const CONFIRMED_FRONT = Object.freeze({
   sourceId: 'odette-confirmed-set',
   title: '奥黛塔',
-  clean: './assets/image(7).png',
-  normal: './assets/a_stylized_normal_map_image_overall_scene_is_a_hi.png',
-  roughness: './assets/奥黛塔_灰度舞姿与圆环徽章.png',
-  height: './assets/需要标题_in_chinese_max_7_words.png',
+  clean: './assets/1.png',
+  normal: './assets/2.png',
+  roughness: './assets/3.png',
+  height: './assets/4.png',
 });
 
 export const ASSET_CONFIG = Object.freeze({
@@ -21,12 +21,12 @@ export const ASSET_CONFIG = Object.freeze({
   ]),
   back: Object.freeze({
     // 没有扫描到可确认用途的独立卡背，因此仅使用现有法线图作为卡背颜色图。
-    clean: './assets/a_stylized_normal_map_image_overall_scene_is_a_hi.png',
+    clean: './assets/2.png',
     normal: null,
     roughness: null,
     height: null,
   }),
-  background: './assets/蓝金水幻少女·全身动态立绘.png',
+  background: './assets/1.png',
 });
 
 export const CARD_WIDTH_CSS = 240;
